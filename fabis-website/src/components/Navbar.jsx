@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import fj from '../assets/fj.png'
 
 const Navbar = ()  => {
     const [nav, setNav] = useState(false)
@@ -10,8 +11,9 @@ const Navbar = ()  => {
 
 
     return (
-        <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'> 
-            <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Fabian Jaskotka</h1>
+        <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white z-50'> 
+            {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Fabian Jaskotka</h1> */}
+            <img className='w-[80px] mx-left z-1000' src={fj} alt='/'></img>
             <ul className='hidden md:flex'>
                 <li className='p-4'>Home</li>
                 <li className='p-4'>Career</li>
