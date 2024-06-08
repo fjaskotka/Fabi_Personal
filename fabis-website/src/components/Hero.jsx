@@ -29,7 +29,7 @@ const Hero = ()  => {
                     >
                     </ReactTyped>
                 </div>
-                <p className='md:text-2xl text-xl font-bold text-gray-500'>Reach out for many inspiring stories.</p>
+                {/* <p className='md:text-2xl text-xl font-bold text-gray-500'>Reach out for many inspiring stories.</p> */}
                 <button className='bg-primary w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Reach out</button>
             </div>
        
