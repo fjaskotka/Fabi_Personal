@@ -5,7 +5,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className='w-full py-16 text-white px-4 bg-gradient-to-r from-cyan-700 to-blue-900'>
+    <div id='contact' className='w-full py-16 text-white px-4 bg-gradient-to-r from-cyan-700 to-blue-900'>
         <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
             <div className='lg:col-span-2 my-4'>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold md:py-4 py-2'>It's a great time to get in touch!</h1>

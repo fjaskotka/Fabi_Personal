@@ -3,7 +3,7 @@ import apple from '../assets/apple.jpeg'
 
 const Career = () => {
   return (
-    <div className='w-full bg-white'>
+    <div id='career' className='w-full bg-white'>
         <div className='max-w-[1240px] mx-auto p-6'>
         <div className='w-full bg-white shadow-2xl grid md:grid-cols-2 rounded-lg'>
             <div className='col-span-1'>

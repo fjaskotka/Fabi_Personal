@@ -6,7 +6,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='wax-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className='wax-w-[1240px] mx-auto py-16 px-10 grid lg:grid-cols-3 gap-8 text-gray-300'>
         <div>
             <h1 className='w-full text-3xl font-bold text-primary'>Fabian Jaskotka</h1>
             <p className='py-4'>Full-time optimist Hamburg, Germany. Being happy is of utmost importance. Focus on doing those things, that make you feel good!</p>

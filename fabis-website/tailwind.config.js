@@ -8,8 +8,8 @@ module.exports = {
       }),
       colors: {
         primary: {
-          light: '#93c5fd', // Light variant of your primary color
-          DEFAULT: '#CED058', // Default primary color
+          light: '#9FBC8D', // Light variant of your primary color
+          DEFAULT: '#778653',//'#CED058', // Default primary color
           dark: '#1e40af', // Dark variant of your primary color
         },
         secondary: {
