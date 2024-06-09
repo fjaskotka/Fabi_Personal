@@ -16,7 +16,7 @@ const Navbar = ()  => {
             <img className='w-[80px] mx-left z-1000' src={fj} alt='/'></img>
             <ul className='hidden md:flex'>
                 <li className='p-4'>Home</li>
-                <li className='p-4'>Career</li>
+                <li className='p-4'>Professional</li>
                 <li className='p-4'>Academic</li>
                 <li className='p-4'>Leisure</li>
                 <li className='p-4'>Contact</li>
@@ -28,7 +28,7 @@ const Navbar = ()  => {
             <h1 className='w-full text-3xl font-bold text-primary py-5 px-5'>Fabian Jaskotka</h1>
                 <ul className='uppercase p-4'>
                     <li className='p-4 border-b border-gray-600'>Home</li>
-                    <li className='p-4 border-b border-gray-600'>Career</li>
+                    <li className='p-4 border-b border-gray-600'>Professional</li>
                     <li className='p-4 border-b border-gray-600'>Academic</li>
                     <li className='p-4 border-b border-gray-600'>Leisure</li>
                     <li className='p-4'>Contact</li>
