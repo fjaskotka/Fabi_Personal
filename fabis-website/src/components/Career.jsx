@@ -30,7 +30,7 @@ const Career = () => {
                                 <p className='font-bold '>2021-Current</p>
                             </div>
                             <div className='col-span-2'>
-                                <p>Apple Inc.</p>
+                                <p>Apple, Inc.</p>
                             </div>
                             <div className='col-span-3'>
                                 <p>Senior Data Scientist</p>

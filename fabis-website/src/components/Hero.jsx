@@ -16,7 +16,7 @@ const Hero = ()  => {
                     <ReactTyped 
                     className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-2 pl-2'
                         strings={[
-                            'Sales lover',
+                            'Sales Lover',
                             'Founder',
                             'Data Scientist',
                             'Product Manager',

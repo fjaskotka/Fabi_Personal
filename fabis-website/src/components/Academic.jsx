@@ -1,5 +1,6 @@
 import React from 'react'
-import Img from '../assets/img1.jpeg';
+import hult from '../assets/hult.png'
+import dhbw from '../assets/dhbw.png'
 
 const Academic = () => {
   return (
@@ -7,7 +8,7 @@ const Academic = () => {
         <h1 className='text-primary lg:text-3xl md:text-2xl text-2xl font-bold py-2 mx-auto text-center m-4 my-auto mb-14'>Academic Achievements </h1>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-20 mx-auto mt-[-2rem] bg-white' src={Img} alt='/'></img>
+                <img className='w-20 mx-auto mt-[-2rem] bg-white' src={hult} alt='/'></img>
                 <h2 className='text-xl font-bold text-center py-8'>Hult International Business School</h2>
                 <p className='text-center text-3xl font-bold'>M.Sc. Business Analytics</p>
                 <div className='text-center font-medium'>
@@ -17,7 +18,7 @@ const Academic = () => {
                 </div>
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-20 mx-auto mt-[-2rem] bg-transparent' src={Img} alt='/'></img>
+                <img className='w-20 mx-auto mt-[-2rem] bg-transparent' src={hult} alt='/'></img>
                 <h2 className='text-xl font-bold text-center py-8'>Hult International Business School</h2>
                 <p className='text-center text-3xl font-bold'>M.Sc. International Business</p>
                 <div className='text-center font-medium'>
@@ -27,7 +28,7 @@ const Academic = () => {
                 </div>
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-20 mx-auto mt-[-2rem] bg-white' src={Img} alt='/'></img>
+                <img className='w-20 mx-auto mt-[-2rem] bg-white' src={dhbw} alt='/'></img>
                 <h2 className='text-xl font-bold text-center py-8'>DHBW Stuttgart</h2>
                 <p className='text-center text-3xl font-bold'>B.Sc. Int. Management for Business & IT</p>
                 <div className='text-center font-medium'>
