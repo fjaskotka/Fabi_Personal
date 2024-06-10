@@ -1,5 +1,5 @@
 import React from 'react'
-import apple from '../assets/apple.jpeg'
+import apple from '../assets/apple.webp'
 
 const Career = () => {
   return (

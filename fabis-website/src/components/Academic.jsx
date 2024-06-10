@@ -1,6 +1,6 @@
 import React from 'react'
-import hult from '../assets/hult.png'
-import dhbw from '../assets/dhbw.png'
+import hult from '../assets/hult.webp'
+import dhbw from '../assets/dhbw.webp'
 
 const Academic = () => {
   return (

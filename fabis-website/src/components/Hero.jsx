@@ -1,9 +1,24 @@
 import React from 'react';
 import { ReactTyped } from "react-typed"
-import apple from '../assets/apple.jpeg'
 
 
 const Hero = ()  => {
+    
+    const navbarHeight = 64;
+    
+    const handleScroll = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            const topOffset = section.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+                top: topOffset - navbarHeight,
+                behavior: 'smooth',
+            });
+        }
+    }
+    
+    
+    
     return (
         <div id='home' className='text-white'>
             {/* <img className=' w-full md:max-w-[400px] mx-auto md:my-auto' src={apple} alt='/'></img> */}
@@ -30,7 +45,7 @@ const Hero = ()  => {
                     </ReactTyped>
                 </div>
                 {/* <p className='md:text-2xl text-xl font-bold text-gray-500'>Reach out for many inspiring stories.</p> */}
-                <button className='bg-primary-light w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Reach out</button>
+                <button className='bg-gray-300 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black' onClick={() => handleScroll('contact')}>Reach out</button>
             </div>
        
         </div>

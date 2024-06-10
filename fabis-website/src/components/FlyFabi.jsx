@@ -1,5 +1,5 @@
 import React from 'react'
-import plane from '../assets/flyfabi.jpeg'
+import plane from '../assets/flyfabi.webp'
 import Button from '../components/Button.jsx'
 
 
