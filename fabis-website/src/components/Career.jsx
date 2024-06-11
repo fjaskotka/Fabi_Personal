@@ -33,7 +33,7 @@ const Career = () => {
                                 <p>Apple, Inc.</p>
                             </div>
                             <div className='font-light col-span-3'>
-                                <p>Senior Data Scientist</p>
+                                <p>Senior Evaluation Product Lead</p>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const Career = () => {
                                 <p>Isardigital GmbH</p>
                             </div>
                             <div className='font-light col-span-3'>
-                                <p>Sales Director</p>
+                                <p>Product & Sales Manager</p>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const Career = () => {
                                 <p>Fabian Jaskotka</p>
                             </div>
                             <div className='font-light col-span-3'>
-                                <p>Founder & Webdesigner</p>
+                                <p>Founder & Webdeveloper</p>
                             </div>
                         </div>
                     </div>

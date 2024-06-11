@@ -1,5 +1,6 @@
 {
-  "name": "fabis-website",
+  "name": "fabian-website",
+  "homepage": "https://fabianjaskotka.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
