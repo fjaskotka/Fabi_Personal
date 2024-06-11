@@ -19,9 +19,9 @@ const Academic = () => {
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-20 mx-auto mt-[-2rem] bg-transparent' src={hult} alt='/'></img>
-                <h2 className='text-xl font-bold text-center py-8'>Hult International Business School</h2>
-                <p className='text-center text-3xl font-bold'>M.Sc. International Business</p>
-                <div className='text-center font-normal'>
+                <h2 className='text-xl font-normal text-center py-8'>Hult International Business School</h2>
+                <p className='text-center text-3xl font-normal'>M.Sc. International Business</p>
+                <div className='text-center font-light'>
                     <p className='py-2 border-b mx-8 mt-8'>Strategy</p>
                     <p className='py-2 border-b mx-8'>Psychology of Pricing</p>
                     <p className='py-2 mx-8 mb-8'>Neuromarketing</p>
@@ -29,9 +29,9 @@ const Academic = () => {
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-20 mx-auto mt-[-2rem] bg-white' src={dhbw} alt='/'></img>
-                <h2 className='text-xl font-bold text-center py-8'>DHBW Stuttgart</h2>
-                <p className='text-center text-3xl font-bold'>B.Sc. Int. Management for Business & IT</p>
-                <div className='text-center font-medium'>
+                <h2 className='text-xl font-normal text-center py-8'>DHBW Stuttgart</h2>
+                <p className='text-center text-3xl font-normal'>B.Sc. Int. Management for Business & IT</p>
+                <div className='text-center font-light'>
                     <p className='py-2 border-b mx-8 mt-8'>Intercultural Management</p>
                     <p className='py-2 border-b mx-8'>Business Informatics</p>
                     <p className='py-2 mx-8 mb-8'>Accounting</p>

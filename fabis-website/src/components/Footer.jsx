@@ -5,25 +5,41 @@ import {
     FaInstagram} from 'react-icons/fa'
 
 const Footer = () => {
+
+    const navbarHeight = 64;
+
+    const handleScroll = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            const topOffset = section.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+                top: topOffset - navbarHeight,
+                behavior: 'smooth',
+            });
+        //   section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
   return (
     <div className='wax-w-[1240px] mx-auto py-16 px-10 grid lg:grid-cols-3 gap-8 text-gray-300'>
         <div>
             <h1 className='w-full text-3xl font-bold text-primary'>Fabian Jaskotka</h1>
-            <p className='py-4'>Full-time optimist Hamburg, Germany. Being happy is of utmost importance. Focus on doing those things, that make you feel good!</p>
+            <p className='py-4'>Full-time optimist from Hamburg, Germany. Being happy is of utmost importance. Focus on doing those things, that make you feel good!</p>
             <div className='flex justify-between md:w-[75%] mx-auto my-6'>
                 <a href='https://www.linkedin.com/in/jaskotka/'><FaLinkedin size={30}/></a>
-                <a href='https://www.instagram.com/fabian_jas/'><FaGithubSquare size={30}/></a>
-                <a href='https://github.com/fjaskotka'><FaInstagram size={30}/></a>
+                <a href='https://github.com/fjaskotka'><FaGithubSquare size={30}/></a>
+                <a href='https://www.instagram.com/fabian_jas/'><FaInstagram size={30}/></a>
+                
             </div>
         </div>
         <div className='lg: col-span-2 flex justify-between mt-6'>
             <div>
                 <h6 className='font-medium text-gray-400'>Facets of me</h6>
                 <ul>
-                    <li className='py-2 text-sm'>Professional</li>
-                    <li className='py-2 text-sm'>Academic</li>
-                    <li className='py-2 text-sm'>Leisure</li>
-                    <li className='py-2 text-sm'>Contact</li>
+                    <li className='py-2 text-sm'><button onClick={() => handleScroll('career')}>Professional</button></li>
+                    <li className='py-2 text-sm'><button onClick={() => handleScroll('academic')}>Academic</button></li>
+                    <li className='py-2 text-sm'><button onClick={() => handleScroll('flyfabi')}>Leisure</button></li>
+                    <li className='py-2 text-sm'><button onClick={() => handleScroll('contact')}>Contact</button></li>
                 </ul>
             </div>
             <div>
