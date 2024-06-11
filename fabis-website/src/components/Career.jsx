@@ -11,7 +11,7 @@ const Career = () => {
             </div>
             <div className='col-span-1 p-6'>
                 <div>
-                    <h1 className='text-primary lg:text-3xl md:text-2xl text-2xl font-bold py-2 mx-auto text-center m-4 my-auto mb-8'>Professional Experience</h1>
+                    <h1 className='text-primary lg:text-4xl text-3xl font-light py-2 mx-auto text-center m-4 my-auto mb-8'>Professional Experience</h1>
                     <div className='m-5 grid grid-cols-6 text-left'>
                             <div className='col-span-1'>
                                 <p className='font-bold'>Date</p>
@@ -27,12 +27,12 @@ const Career = () => {
                     <div className='shadow-xl rounded-lg p-5 bg-white hover:scale-105 duration-300 my-2 '>
                         <div className='grid grid-cols-6 gap-1'>
                             <div className='col-span-1'>
-                                <p className='font-bold '>2021-Current</p>
+                                <p className='font-normal '>2021-Current</p>
                             </div>
-                            <div className='col-span-2'>
+                            <div className='font-light col-span-2'>
                                 <p>Apple, Inc.</p>
                             </div>
-                            <div className='col-span-3'>
+                            <div className='font-light col-span-3'>
                                 <p>Senior Data Scientist</p>
                             </div>
                         </div>
@@ -40,12 +40,12 @@ const Career = () => {
                     <div className='shadow-xl rounded-lg p-5 bg-white hover:scale-105 duration-300 my-2'>
                         <div className='grid grid-cols-6 gap-1'>
                             <div className='col-span-1'>
-                                <p className='font-bold '>2019-2021</p>
+                                <p className='font-normal '>2019-2021</p>
                             </div>
-                            <div className='col-span-2'>
+                            <div className='font-light col-span-2'>
                                 <p>Isardigital GmbH</p>
                             </div>
-                            <div className='col-span-3'>
+                            <div className='font-light col-span-3'>
                                 <p>Sales Director</p>
                             </div>
                         </div>
@@ -53,12 +53,12 @@ const Career = () => {
                     <div className='shadow-xl rounded-lg p-5 bg-white hover:scale-105 duration-300'>
                         <div className='grid grid-cols-6 gap-1'>
                             <div className='col-span-1'>
-                                <p className='font-bold '>2018-2021</p>
+                                <p className='font-normal '>2018-2021</p>
                             </div>
-                            <div className='col-span-2'>
+                            <div className='font-light col-span-2'>
                                 <p>Fabian Jaskotka</p>
                             </div>
-                            <div className='col-span-3'>
+                            <div className='font-light col-span-3'>
                                 <p>Founder & Webdesigner</p>
                             </div>
                         </div>
@@ -66,12 +66,12 @@ const Career = () => {
                     <div className='shadow-xl rounded-lg p-5 bg-white hover:scale-105 duration-300 my-2'>
                         <div className='grid grid-cols-6 gap-1'>
                             <div className='col-span-1'>
-                                <p className='font-bold '>2016-2019</p>
+                                <p className='font-normal '>2016-2019</p>
                             </div>
-                            <div className='col-span-2'>
+                            <div className='font-light col-span-2'>
                                 <p>Mercedes-Benz AG</p>
                             </div>
-                            <div className='col-span-3'>
+                            <div className='font-light col-span-3'>
                                 <p>Corporate Student</p>
                             </div>
                         </div>

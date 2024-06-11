@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
+      margin: {
+        '1/4': '25%',
+        '1/2': '50%',
+      },
       backgroundImage: theme => ({
         'custom-image': "url('/src/assets/background.jpeg')",
       }),
