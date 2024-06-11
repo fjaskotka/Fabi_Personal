@@ -22,7 +22,7 @@ const Footer = () => {
 
   return (
     <div className='wax-w-[1240px] mx-auto py-16 px-10 grid lg:grid-cols-3 gap-8 text-gray-300'>
-        <div>
+        <div className='py-2'> 
             {/* <h1 className='w-full text-3xl font-bold text-primary'>Fabian Jaskotka</h1> */}
             <svg className='flex fill-white h-12' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 835.96 117.65">
                     
@@ -79,7 +79,7 @@ const Footer = () => {
                 
             </div>
         </div>
-        <div className='lg: col-span-2 flex justify-between mt-6'>
+        <div className='lg: col-span-2 flex justify-between mt-6 px-2 '>
             <div>
                 <h6 className='font-medium text-gray-400'>Facets of me</h6>
                 <ul>

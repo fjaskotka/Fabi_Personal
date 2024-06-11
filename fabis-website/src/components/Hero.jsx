@@ -27,7 +27,7 @@ const Hero = ()  => {
             
                 {/* <p className='text-primary-light font-bold py-2 opacity-100'>Winners never quit and quitters never win</p> */}
                 {/* <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Fabian Jaskotka</h1> */}
-                <svg className='absolute top-1/4 w-full justify-center flex fill-white h-14 md:h-20 lg:h-24' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 835.96 117.65">
+                <svg className='absolute top-1/4 w-full justify-center flex fill-white h-14 md:h-20 lg:h-24 px-4' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 835.96 117.65">
                     
                     <g id="Layer_1-2" data-name="Layer 1">
                         <g>
