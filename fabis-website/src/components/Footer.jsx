@@ -21,7 +21,7 @@ const Footer = () => {
     }
 
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-8 grid lg:grid-cols-3 gap-7 text-gray-300'>
+    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-7 text-gray-300'>
         <div className='mx-auto'> 
             {/* <h1 className='w-full text-3xl font-bold text-primary'>Fabian Jaskotka</h1> */}
             <svg className='flex fill-white h-12' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 835.96 117.65">
@@ -71,7 +71,7 @@ const Footer = () => {
                         </g>
                     </g>
                 </svg>
-            <p className='py-4'>Full-time optimist from Hamburg, Germany. Being happy is of utmost importance. Focus on doing those things, that make you feel good!</p>
+            <p className='py-4'>Full-time optimist from Hamburg, Germany. Being happy is of utmost importance. Focus on doing those things, that make you feel good. Winners never quit and quitters never win!</p>
             <div className='flex justify-between md:w-[75%] mx-auto my-6'>
                 <a href='https://www.linkedin.com/in/jaskotka/'><FaLinkedin size={30}/></a>
                 <a href='https://github.com/fjaskotka'><FaGithubSquare size={30}/></a>

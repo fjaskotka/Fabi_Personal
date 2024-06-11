@@ -4,7 +4,7 @@ import dhbw from '../assets/dhbw.webp'
 
 const Academic = () => {
   return (
-    <div id='academic' className='w-full py-[4rem] px-4 bg-white'>
+    <div id='academic' className='w-full py-[4rem] px-3 bg-white'>
         <h1 className='text-primary lg:text-4xl  text-3xl font-light py-2 mx-auto text-center m-4 my-auto mb-14'>Academic Achievements </h1>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
