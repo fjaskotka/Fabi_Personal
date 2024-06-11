@@ -79,8 +79,14 @@ const Navbar = ()  => {
                     {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
                 </div>
             </div>
-                <div className={nav ? 'fixed left-0 top-0 w-[100%] h-full border-r border-r-gray-900 bg-[#000300] opacity-90 ease-in-out duration-500' : 'fixed left-[-100%]'}>
-                <h1 className='w-full text-3xl font-bold text-primary py-5 px-5'>Fabian Jaskotka</h1>
+                <div className={nav ? 'fixed left-0 top-0 w-[100%] h-full border-r border-r-gray-900 bg-[#000300]/95 ease-in-out duration-500' : 'fixed left-[-100%]'}>
+                {/* <h1 className='w-full text-3xl font-bold text-primary py-5 px-5'>Fabian Jaskotka</h1> */}
+                <svg className='h-12 my-5 mx-5' id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 603.5 686.5">
+                    <path className='cls-1' stroke="#FFF" strokeWidth="30" fill='none' d="M21.5,686.5V21.5h560c0,155.34.5,328.16.5,483.5-.47,115.13-93,165-179.44,156.46-38.71-3.83-70.31-23.99-77.24-29.1-67.32-49.57-87.32-98.36-91.32-110.36"/>
+                    <line stroke="#FFF" strokeWidth="30" class="cls-1" x1="25" y1="312.5" x2="359" y2="313"/>
+                    </svg>
+                
+                
                 <ul className='uppercase p-4'>
                     <li className='p-4 border-b border-gray-600'><button onClick={() => handleButtonClick('home')}>Home</button></li>
                     <li className='p-4 border-b border-gray-600'><button onClick={() => handleButtonClick('career')}>Professional</button></li>
