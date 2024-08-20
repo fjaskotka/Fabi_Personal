@@ -6,8 +6,11 @@ import Career from './components/Career'
 import Academic from './components/Academic'
 import Contact from './components/Contact'
 import FlyFabi from './components/FlyFabi'
+import ReactGA from 'react-ga4';
 
 function App() {
+  ReactGA.initialize('G-NZ986EVFCS');
+
   return (
     <div>
       <Navbar />

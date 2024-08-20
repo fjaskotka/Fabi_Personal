@@ -14,7 +14,7 @@ const FlyFabi = ()  => {
                     <p className='text-primary font-bold'>FLYING IS THE GREATEST WAY TO DISCOVER OUR PLANET</p>
                     <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>FLY WITH ME!</h1>
                     <p> If you ever wondered what it is like to sit in a comfortable cabin the size of a compact car and gaze down at the skylines and landscapes, this is your chance to find out. Currently flying in the Seattle, WA area.</p>
-                    <Button className='bg-primary text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3' url='https://flyfabi.com' label='FlyFabi.com'/>
+                    {/* <Button className='bg-primary text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3' url='https://flyfabi.com' label='FlyFabi.com'/> */}
                 </div>
             </div>
         </div>

@@ -1,8 +1,15 @@
 import React from 'react';
 import { ReactTyped } from "react-typed"
+import ReactGA from 'react-ga4';
 
 
 const Hero = ()  => {
+
+    ReactGA.send({
+        hitType: "pageview",
+        page: "/",
+        title: "Home",
+    })
     
     const navbarHeight = 64;
     

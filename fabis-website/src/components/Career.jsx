@@ -27,7 +27,20 @@ const Career = () => {
                     <div className='shadow-xl rounded-lg p-5 bg-white hover:scale-105 duration-300 my-2 '>
                         <div className='grid grid-cols-6 gap-1'>
                             <div className='col-span-1'>
-                                <p className='font-normal '>2021-Current</p>
+                                <p className='font-normal '>2024-Current</p>
+                            </div>
+                            <div className='font-light col-span-2'>
+                                <p>Apple, Inc.</p>
+                            </div>
+                            <div className='font-light col-span-3'>
+                                <p>Senior Engineering Program Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='shadow-xl rounded-lg p-5 bg-white hover:scale-105 duration-300 my-2 '>
+                        <div className='grid grid-cols-6 gap-1'>
+                            <div className='col-span-1'>
+                                <p className='font-normal '>2021-2024</p>
                             </div>
                             <div className='font-light col-span-2'>
                                 <p>Apple, Inc.</p>
