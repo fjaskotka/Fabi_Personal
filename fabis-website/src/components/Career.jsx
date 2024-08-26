@@ -7,7 +7,7 @@ const Career = () => {
         <div className='max-w-[1240px] mx-auto p-3 md:p-6'>
         <div className='w-full bg-white shadow-2xl grid md:grid-cols-2 rounded-lg'>
             <div className='col-span-1'>
-                 <img className='w-full md:mx-right mx-auto rounded-t-lg md:rounded-none md:rounded-l-lg ' src={apple} alt='/'></img>
+                 <img className='w-full md:mx-right mx-auto rounded-t-lg md:rounded-none md:rounded-l-lg ' src={apple.src} alt='/'></img>
             </div>
             <div className='col-span-1 p-6'>
                 <div>

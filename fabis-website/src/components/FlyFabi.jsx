@@ -9,7 +9,7 @@ const FlyFabi = ()  => {
     return (
         <div id='flyfabi' className='w-full bg-gray-100 py-16 px-10'>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8'>
-                <img src={plane} alt='/' className='w-[500px] mx-auto my-4 rounded-lg shadow-xl'></img>
+                <img src={plane.src} alt='/' className='w-[500px] mx-auto my-4 rounded-lg shadow-xl'></img>
                 <div className='flex flex-col max-w-[500px] '>
                     <p className='text-primary font-bold'>FLYING IS THE GREATEST WAY TO DISCOVER OUR PLANET</p>
                     <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>FLY WITH ME!</h1>

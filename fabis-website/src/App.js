@@ -1,3 +1,6 @@
+// import image from './img.png'
+
+
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -8,7 +11,7 @@ import Contact from './components/Contact'
 import FlyFabi from './components/FlyFabi'
 import ReactGA from 'react-ga4';
 
-function App() {
+export default function App() {
   ReactGA.initialize('G-NZ986EVFCS');
 
   return (
@@ -25,4 +28,10 @@ function App() {
   );
 };
 
-export default App;
+// export default function App() {
+//   // return <img src={image} />
+// }
+
+
+
+ 

@@ -8,7 +8,7 @@ module.exports = {
         '1/2': '50%',
       },
       backgroundImage: theme => ({
-        'custom-image': "url('/src/assets/background.jpeg')",
+        'custom-image': "url('../src/assets/background.jpeg')",
       }),
       colors: {
         primary: {
